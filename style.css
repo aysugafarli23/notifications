@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 500pt;
+    margin: 0 auto;
+}
+.buttonsCol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.clickBtn{
+    font-size: 24px;
+    background-color:white;
+    color: blueviolet;
+    border: 5px solid blueviolet;
+    border-radius: 25px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.notifBtn{
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 20px 30px;
+    cursor: pointer;
+   
+}
