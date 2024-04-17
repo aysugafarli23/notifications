@@ -5,15 +5,13 @@ const clickBtn = document.createElement('button')
 clickBtn.classList.add('clickBtn')
 clickBtn.textContent = 'Show Notifications'
 container.append(clickBtn)
-let a = Math.floor(Math.random() * 256)
-let b = Math.floor(Math.random() * 256)
-let c = Math.floor(Math.random() * 256)
-
 
 clickBtn.addEventListener('click', () => {
+  let a = Math.floor(Math.random() * 256)
+  let b = Math.floor(Math.random() * 256)
+  let c = Math.floor(Math.random() * 256)
 
-
-const randomNumber = Math.floor(Math.random() * 5)
+  const randomNumber = Math.floor(Math.random() * 5)
 
   const notifBtn = document.createElement('button')
   notifBtn.classList.add('notifBtn')
@@ -23,6 +21,5 @@ const randomNumber = Math.floor(Math.random() * 5)
 })
 
 setTimeout(() => {
-    notifBtn.remove()
-    }, 3000)
-    
+  notifBtn.remove()
+}, 3000)
